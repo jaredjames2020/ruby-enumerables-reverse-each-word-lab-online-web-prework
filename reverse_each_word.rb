@@ -5,6 +5,10 @@
 
 def reverse_each_word(sentence)
   new_array = []
+  
+  sentence.each do
+    
+  
   sentence.split(/ /)
   new_array2.each {|x| print "#{x.reverse}"}
   #new_array2 = sentence.split(/ /)
