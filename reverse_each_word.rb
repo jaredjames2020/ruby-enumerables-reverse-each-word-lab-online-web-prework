@@ -7,6 +7,9 @@ def reverse_each_word(sentence)
   new_array = []
   
   sentence.each do |x|
+    sentence.split(/ /)
+    x.reverse
+    new_array << 
     
     
   
